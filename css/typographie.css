@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {font-family:"HaginCapsMedium";
+	src:url("fonts/Hagin_Caps_Medium.eot?") format("eot"),url("fonts/Hagin_Caps_Medium.woff") format("woff"),
+	url("fonts/Hagin_Caps_Medium.ttf") format("truetype"),
+	url("fonts/Hagin_Caps_Medium.svg#HaginCapsMedium") format("svg");
+	font-weight:normal;
+	font-style:normal;}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+	font-family: 'OpenSansRegular', Arial, sans-serif ;
+	font-size: 12px;
+	
+}
+
+p {
+	font-size:1.667em;
+	text-decoration:none;
+}
+
+h1 { /*COMING SOON*/
+	font-family:'HaginCapsMedium', sans-serif;
+	font-size:8.667em;
+	
+}
+
+h2, h3, h4, a {
+	font-family:'BebasNeueRegular', sans-serif;
+	text-decoration:none;
+}
+
+h2 {
+	font-size:3.333em;
+	text-shadow: -1px 1px 0px rgba(49, 49, 46, 0.6);
+}
+
+h3 {
+	font-size:2.750em;
+	text-shadow: -1px 1px 0px rgba(49, 49, 46, 0.5);
+	
+}
+
+h4 /*le réseau qui résout tout*/ {
+	font-size:1.667em;
+	text-shadow: 0px 1px 0px rgba(49, 49, 46, 0.5);
+	
+}
+
+a.nav {
+	font-size:3.083em;
+	color:#dfdedf;
+}
+
+a#nav-newsletter:hover {
+	color:#983015;
+	text-shadow: 2px 1px 1px rgba(49, 49, 46, 0.95);
+}
+
+a#nav-contact:hover {
+	color:#983015;
+	text-shadow: -2px 1px 1px rgba(49, 49, 46, 0.95);
+}
+
+a#nav-newsletter:active {
+	color:#983015;
+	text-shadow: 1px 0px 0px rgba(49, 49, 46, 0.95);
+}
+
+a#nav-contact:active {
+	color:#983015;
+	text-shadow: 1px 0px 0px rgba(49, 49, 46, 0.95);
+}
+
+nav.flottante {
+	color:#dfdedf;
+	font-size:1.667em;
+	
+}
+
+.pres h2 {
+	color:#dfdedf;
+}
+
+.concept h2 {
+	color:#31213d;
+}
+
+
